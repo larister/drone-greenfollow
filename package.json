@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Alastair Lockie",
+    "email": "alastair.lockie@gmail.com",
+    "url": "http://alastairlockie.com/"
+  },
+  "contributors": [{
+    "name": "Peter West",
+    "url": "https://twitter.com/peterjwest"
+  }],
+  "name": "drone-greenfollow",
+  "description": "A node.js program for instructing a Parrot AR Drone 2.0 quad-copters to follow green colors",
+  "version": "0.0.1",
+  "homepage": "https://github.com/larister/drone-greenfollow",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:larister/drone-greenfollow.git"
+  },
+  "dependencies": {
+    "ar-drone": "0.0.4",
+    "color-convert": "0.3.1",
+    "png-js": "0.1.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
